@@ -1,0 +1,162 @@
+.grow { 
+    transition: all .2s ease-in-out; 
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.12), 0 2px 9px rgba(0, 0, 0, 0.24);   
+    }
+    
+.grow:hover { 
+    transform: scale(1.1);
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.12), 0 2px 9px rgba(0, 0, 0, 0.24);   
+    }
+
+.button1{
+    background-color:skyblue;
+    outline:ivory; 
+}
+.test{
+    opacity: 0.9;
+}
+.test:hover{
+    opacity: 1;
+}
+.parent-div{
+    min-height: 100vh !important;
+    
+    /*background-image: url("./images/cartback.jpg");*/
+    background-image: url("https://wallpaperaccess.com/full/1567833.jpg");
+
+    /*background-image: url("https://eventnook.s3.amazonaws.com/u/69016/coverimage_18081818423600_50-beautiful-and-minimalist-presentation-backgrounds-04.jpg");
+    */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  
+}
+.my-modal{
+    width: 90vw;
+    max-width: 90vw;
+    
+}
+.my-modal2{
+    width: 70vw;
+    max-width: 70vw;
+    
+}
+.form{
+    background-color: #E6EDEE;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    border-color: salmon salmon salmon salmon !important;
+    border-width:2px;
+    border-style:solid;
+}
+.orderbtn{
+    margin-left: 43%;
+    background-color: #BD343E;
+    outline: none !important;
+    border-color: white;
+}
+
+.orderbtn1{
+    margin-left: 38%;
+    background-color: #BD343E;
+    outline: none !important;
+    border-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.orderbtn1:hover{
+    margin-left: 38%;
+    background-color: #F0234F;
+    outline: none !important;
+    border-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+
+
+.img2{
+    height:146px;
+    width:100%;
+    
+}
+.modal-stock{
+    background-color: turquoise !important;
+}
+.initial{
+    min-height:80vh !important;
+    /*width:1000vh !important;*/
+   background-color: #FAFAFA;
+    text-align: center;
+    
+}
+.second{
+    background-color: #FBF2F2;
+    /*padding-top: 10vh;
+    padding-left: 15vh;
+    padding-bottom: 10vh;*/
+  
+   
+}
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+.services{
+  text-align: center;
+  
+}
+.second2{
+  padding-top: 10vh;
+  padding-left: 15vh;
+  padding-bottom: 10vh;
+}
